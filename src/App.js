@@ -21,7 +21,7 @@ function IncreaseBtn() {
       <h1>HEllo world</h1>
       <h1>Count:{count}</h1>
       <button onClick={handleClick}>increase</button>
-      <button onClick={() => setCount(count - 1)}>decrease</button>
+      <button onClick={() => setCount(count - 1)}>decreases</button>
       <button onClick={() => setCount(0)}>reset</button>
     </div>
   );
